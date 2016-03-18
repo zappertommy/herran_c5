@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02 17, 16, 8:50:50 PM
+    Author     : cloudemployee101
+*/
+
+#tmpList, .sub-group {display: none;}
+.sub-list ul {
+    list-style: outside none none;
+    padding: 0;
+    width: 100%;
+}
+.sub-list ul li {
+    display: inline-block;
+    width: 49%;
+}
+.sub-list ul li:last-child {
+    text-align: right;
+}
+.delete-list {
+    background: rgba(0, 0, 0, 0) url("../images/delete_small.png") no-repeat scroll center center;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+.form-group.sub-group {
+    margin-left: 20px;
+}
