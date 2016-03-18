@@ -1,0 +1,133 @@
+#addItem {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    color: #4f4f4f;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0 20px;
+    text-align: center;
+}
+#addItem:hover {
+    background-color: #cccccc;
+    color: #ffffff;
+}
+#ccm-edit-rows .ccm-edit-row {
+    display: none;
+    margin-bottom: 12px;
+    clear: both;
+    padding: 7px;
+    background-color: #eee;
+}
+#ccm-edit-rows .ccm-edit-row.active {
+    display: block;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header {
+    height: 30px;
+    background-color: #dddddd;
+    margin-bottom: 10px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-item-label {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-edit-rowIcons {
+    float: right;
+    height: 20px;
+    margin: 5px;
+    text-align: left;
+    width: 60px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-edit-rowIcons a.deleteItem {
+    background: url(../images/delete_small.png) no-repeat center;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 16px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-edit-rowIcons .move-icons {
+    display: inline-block;
+    height: 20px;
+    margin-right: 3px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-edit-rowIcons .move-icons a {
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 16px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-edit-rowIcons .move-icons a.moveLeftItem {
+    background: rgba(0, 0, 0, 0) url("../images/arrow_left.png") no-repeat scroll center center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-edit-rowIcons .move-icons a.moveRightItem {
+    background: rgba(0, 0, 0, 0) url("../images/arrow_right.png") no-repeat scroll center center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-edit-rowIcons .move-icons a.moveLeftItem:hover {
+    background: url("../images/arrow_left_black.png") no-repeat center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-item-header .ccm-edit-rowIcons .move-icons a.moveRightItem:hover {
+    background: url("../images/arrow_right_black.png") no-repeat center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group {
+    margin-left: 3%;
+    width: 95%;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group textarea {
+    width: 100%;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group input {
+    width: 100%;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group h2 {
+    font-size: 14px;
+}
+.ccm-block-field-group.header {
+    background-color: #dddddd;
+    padding: 20px;
+}
+.ccm-block-field-group.header h2 {
+    font-size: 16px;
+}
+.ccm-block-field-group.header input[type="text"] {
+    width: 100%;
+}
+#defaultTemplate {
+    display: none;
+}
+#tabControl ul {
+    height: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 5px 5px 0;
+}
+#tabControl ul li:first-child {
+    border-top-left-radius: 0;
+}
+#tabControl ul li  {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
+    border-width: 2px 2px 0;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px;
+}
+#tabControl ul li.active {
+    background-color: #ffffff;
+    color: #4f4f4f;
+}
+#tabControl ul li:hover {
+    background-color: #ffffff;
+    color: #4f4f4f;
+}

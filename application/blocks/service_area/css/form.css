@@ -1,0 +1,190 @@
+#addCol,
+.addList {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    color: #4f4f4f;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 0 20px;
+    text-align: center;
+}
+#addCol:hover,
+.addList:hover {
+    background-color: #cccccc;
+    color: #ffffff;
+}
+#addCol {
+    margin-bottom: 10px;
+}
+#ccm-edit-rows .ccm-edit-row {
+    display: none;
+    margin-bottom: 12px;
+    clear: both;
+    padding: 7px;
+    background-color: #eee;
+}
+#ccm-edit-rows .ccm-edit-row.active {
+    display: block;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header {
+    height: 30px;
+    background-color: #dddddd;
+    margin-bottom: 10px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-col-label {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-edit-rowIcons {
+    float: right;
+    height: 20px;
+    margin: 5px;
+    text-align: left;
+    width: 60px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-edit-rowIcons a.deleteCol {
+    background: url(../images/delete_small.png) no-repeat center;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 16px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-edit-rowIcons .move-icons {
+    display: inline-block;
+    height: 20px;
+    margin-right: 3px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-edit-rowIcons .move-icons a {
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 16px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-edit-rowIcons .move-icons a.moveLeftCol {
+    background: rgba(0, 0, 0, 0) url("../images/arrow_left.png") no-repeat scroll center center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-edit-rowIcons .move-icons a.moveRightCol {
+    background: rgba(0, 0, 0, 0) url("../images/arrow_right.png") no-repeat scroll center center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-edit-rowIcons .move-icons a.moveLeftCol:hover {
+    background: url(../images/arrow_left_black.png) no-repeat center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-col-header .ccm-edit-rowIcons .move-icons a.moveRightCol:hover {
+    background: url(../images/arrow_right_black.png) no-repeat center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists .ccm-edit-listIcons {
+    float: right;
+    width: 45px;
+    text-align: left;
+    margin: 5px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists .ccm-edit-listIcons a.deleteList {
+    background: url(../images/delete_small.png) no-repeat center;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 16px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists .ccm-edit-listIcons .move-icons {
+    display: inline-block;
+    margin-right: 3px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists .ccm-edit-listIcons .move-icons a {
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    width: 16px;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists .ccm-edit-listIcons .move-icons a.moveUpList {
+    background: url(../images/arrow_up.png) no-repeat center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists .ccm-edit-listIcons .move-icons a.moveDownList {
+    background: url(../images/arrow_down.png) no-repeat center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists .ccm-edit-listIcons .move-icons a.moveUpList:hover {
+    background: url(../images/arrow_up_black.png) no-repeat center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists .ccm-edit-listIcons .move-icons a.moveDownList:hover {
+    background: url(../images/arrow_down_black.png) no-repeat center;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group {
+    margin-left: 3%;
+    width: 95%;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group input {
+    width: 100%;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists {
+    margin-top: 20px;
+    margin-left: 3%;
+    width: 97%;
+}
+#ccm-edit-rows .ccm-edit-row .ccm-block-field-group .ccm-block-field-lists textarea {
+    margin-bottom: 5px;
+    resize: vertical;
+    width: 90%;
+}
+.ccm-block-field-group.header {
+    background-color: #dddddd;
+    padding: 20px;
+}
+.ccm-block-field-group.header h2 {
+    font-size: 16px;
+}
+.ccm-block-field-group.header input[type="text"] {
+    width: 100%;
+}
+.ccm-block-field-group.footer {
+    background-color: #dddddd;
+    padding: 20px;
+}
+.ccm-block-field-group.footer .field-box {
+    margin-bottom: 20px;
+}
+.ccm-block-field-group.footer h2 {
+    font-size: 16px;
+}
+.ccm-block-field-group.footer textarea {
+    width: 100%;
+}
+.ccm-block-field-group.footer .ccm-summary-selected-item {
+    background-color: #eeeeee;
+}
+#defaultTemplate {
+    display: none;
+}
+#tabControl ul {
+    height: 30px;
+    padding: 5px 5px 0;
+}
+#tabControl ul li:first-child {
+    border-top-left-radius: 0;
+}
+#tabControl ul li  {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
+    border-width: 2px 2px 0;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    height: 18px;
+    padding: 5px;
+}
+#tabControl ul li.active {
+    background-color: #ffffff;
+    color: #4f4f4f;
+}
+#tabControl ul li:hover {
+    background-color: #ffffff;
+    color: #4f4f4f;
+}
